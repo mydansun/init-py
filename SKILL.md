@@ -1,6 +1,6 @@
 ---
 name: init-py
-description: Author an interactive `init.py` bring-up script for a Docker Compose stack — collects env vars via questionary, writes them to `.env` via python-dotenv (preserving comments), validates upstream connectivity with timeout-bounded probes, and supports idempotent `check` / `reconfigure KEY` subcommands. Use when the user asks for an "init.py", "bring-up tool", ".env wizard", "compose bootstrapper", or wants to scaffold a single-file Python CLI that prepares a host before `docker compose up`. Trigger words: "create init.py", "interactive .env setup", "bring-up script".
+description: 'Author an interactive `init.py` bring-up script for a Docker Compose stack — collects env vars via questionary, writes them to `.env` via python-dotenv (preserving comments), validates upstream connectivity with timeout-bounded probes, and supports idempotent `check` / `reconfigure KEY` subcommands. Use when the user asks for an "init.py", "bring-up tool", ".env wizard", "compose bootstrapper", or wants to scaffold a single-file Python CLI that prepares a host before `docker compose up`. Triggers include "create init.py", "interactive .env setup", "bring-up script".'
 ---
 
 # init.py — interactive Docker Compose bring-up tool
