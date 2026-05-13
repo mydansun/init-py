@@ -8,18 +8,10 @@ The single-file `uv run --script` shape means the operator only needs `uv` insta
 
 - [`SKILL.md`](SKILL.md) — the actual skill: structure, the `collect_field` skeleton, and the pitfalls that are easy to hit (manual `.env` writers, missing `quote_mode="auto"`, probes without timeouts, mTLS cert pair checks via `SubjectPublicKeyInfo`, etc.).
 
-## Install (Claude Code)
+## Installation
 
-Drop the directory under your user-skills root:
-
-```bash
-cp -R . ~/.claude/skills/init-py
 ```
-
-…or symlink it from a checkout so edits propagate:
-
-```bash
-ln -s "$PWD" ~/.claude/skills/init-py
+npx skills add mydansun/init-py
 ```
 
 Then ask Claude something like *"create an init.py for this compose project"* and it will load this skill.
